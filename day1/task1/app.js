@@ -1,5 +1,6 @@
+// Day1, Task1
 const fs = require("fs");
-const input = fs.readFileSync("./input.txt", "utf-8");
+const input = fs.readFileSync("../input.txt", "utf-8");
 
 const list1 = [];
 const list2 = [];
