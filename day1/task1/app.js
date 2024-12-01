@@ -28,3 +28,5 @@ const totalDistance = distancesApart.reduce(
    0
 );
 console.log(totalDistance); //2196996
+
+fs.writeFileSync("./output.txt", totalDistance.toString());
